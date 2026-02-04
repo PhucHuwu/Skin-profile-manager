@@ -92,8 +92,8 @@ export default function EditRecordPage({ params }) {
 
     return (
         <ProtectedRoute>
-            <div className="min-h-screen bg-gradient-to-br from-background via-pink-50 to-purple-50 p-8 pb-32">
-                <div className="max-w-4xl mx-auto">
+            <div className="min-h-screen bg-gradient-to-br from-background via-pink-50 to-purple-50 p-4 md:p-6 pb-32">
+                <div className="max-w-7xl mx-auto">
                     <div className="mb-8">
                         <h1 className="text-4xl font-heading font-bold text-textPrimary mb-2">Chỉnh sửa hồ sơ</h1>
                         <p className="text-pink-800/70">ID: {record.id}</p>
