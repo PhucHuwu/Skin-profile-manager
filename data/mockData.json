@@ -1,0 +1,364 @@
+{
+    "records": [
+        {
+            "id": "REC001",
+            "imageUrl": "/images/face-sample-1.jpg",
+            "personalInfo": {
+                "name": "Nguyễn Thị Lan",
+                "age": 28,
+                "gender": "Nữ"
+            },
+            "skinAnalysis": [
+                {
+                    "zone": "forehead",
+                    "zoneName": "Trán",
+                    "skinType": "oily",
+                    "acneLevel": "mild",
+                    "rednessLevel": "none",
+                    "poreSize": "large"
+                },
+                {
+                    "zone": "left_cheek",
+                    "zoneName": "Má trái",
+                    "skinType": "combination",
+                    "acneLevel": "clear",
+                    "rednessLevel": "mild",
+                    "poreSize": "small"
+                },
+                {
+                    "zone": "right_cheek",
+                    "zoneName": "Má phải",
+                    "skinType": "combination",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "small"
+                },
+                {
+                    "zone": "nose",
+                    "zoneName": "Mũi",
+                    "skinType": "oily",
+                    "acneLevel": "moderate",
+                    "rednessLevel": "mild",
+                    "poreSize": "large"
+                },
+                {
+                    "zone": "chin",
+                    "zoneName": "Cằm",
+                    "skinType": "combination",
+                    "acneLevel": "mild",
+                    "rednessLevel": "none",
+                    "poreSize": "normal"
+                },
+                {
+                    "zone": "around_mouth",
+                    "zoneName": "Quanh miệng",
+                    "skinType": "normal",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "small"
+                }
+            ],
+            "additionalInfo": {
+                "hydrationLevel": "dry",
+                "elasticity": "good",
+                "wrinkles": "none",
+                "pigmentation": "mild",
+                "sensitivity": "sensitive",
+                "allergyHistory": "Dị ứng với retinol, hương liệu nhân tạo",
+                "currentProducts": "Sữa rửa mặt Cetaphil, kem dưỡng ẩm Cerave, serum Vitamin C",
+                "notes": "Khách hàng muốn cải thiện tình trạng da dầu vùng T và nám nhẹ"
+            },
+            "status": "completed",
+            "createdAt": "2026-01-15T10:30:00Z",
+            "updatedAt": "2026-01-15T14:20:00Z"
+        },
+        {
+            "id": "REC002",
+            "imageUrl": "/images/face-sample-2.jpg",
+            "personalInfo": {
+                "name": "Trần Minh Anh",
+                "age": 35,
+                "gender": "Nữ"
+            },
+            "skinAnalysis": [
+                {
+                    "zone": "forehead",
+                    "zoneName": "Trán",
+                    "skinType": "dry",
+                    "acneLevel": "clear",
+                    "rednessLevel": "mild",
+                    "poreSize": "small"
+                },
+                {
+                    "zone": "left_cheek",
+                    "zoneName": "Má trái",
+                    "skinType": "dry",
+                    "acneLevel": "clear",
+                    "rednessLevel": "moderate",
+                    "poreSize": "small"
+                },
+                {
+                    "zone": "right_cheek",
+                    "zoneName": "Má phải",
+                    "skinType": "dry",
+                    "acneLevel": "clear",
+                    "rednessLevel": "moderate",
+                    "poreSize": "small"
+                },
+                {
+                    "zone": "nose",
+                    "zoneName": "Mũi",
+                    "skinType": "normal",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "normal"
+                },
+                {
+                    "zone": "chin",
+                    "zoneName": "Cằm",
+                    "skinType": "dry",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "small"
+                },
+                {
+                    "zone": "around_mouth",
+                    "zoneName": "Quanh miệng",
+                    "skinType": "dry",
+                    "acneLevel": "clear",
+                    "rednessLevel": "mild",
+                    "poreSize": "small"
+                }
+            ],
+            "additionalInfo": {
+                "hydrationLevel": "very_dry",
+                "elasticity": "moderate",
+                "wrinkles": "mild",
+                "pigmentation": "moderate",
+                "sensitivity": "very_sensitive",
+                "allergyHistory": "Không có tiền sử dị ứng",
+                "currentProducts": "Kem dưỡng ẩm La Roche-Posay, serum niacinamide",
+                "notes": "Khách hàng có da khô và nhạy cảm, cần sản phẩm dịu nhẹ"
+            },
+            "status": "completed",
+            "createdAt": "2026-01-20T14:15:00Z",
+            "updatedAt": "2026-01-20T15:30:00Z"
+        },
+        {
+            "id": "REC003",
+            "imageUrl": "/images/face-sample-3.jpg",
+            "personalInfo": {
+                "name": "Lê Hoàng Nam",
+                "age": 22,
+                "gender": "Nam"
+            },
+            "skinAnalysis": [
+                {
+                    "zone": "forehead",
+                    "zoneName": "Trán",
+                    "skinType": "oily",
+                    "acneLevel": "severe",
+                    "rednessLevel": "severe",
+                    "poreSize": "very_large"
+                },
+                {
+                    "zone": "left_cheek",
+                    "zoneName": "Má trái",
+                    "skinType": "oily",
+                    "acneLevel": "moderate",
+                    "rednessLevel": "moderate",
+                    "poreSize": "large"
+                },
+                {
+                    "zone": "right_cheek",
+                    "zoneName": "Má phải",
+                    "skinType": "oily",
+                    "acneLevel": "moderate",
+                    "rednessLevel": "moderate",
+                    "poreSize": "large"
+                },
+                {
+                    "zone": "nose",
+                    "zoneName": "Mũi",
+                    "skinType": "oily",
+                    "acneLevel": "severe",
+                    "rednessLevel": "moderate",
+                    "poreSize": "very_large"
+                },
+                {
+                    "zone": "chin",
+                    "zoneName": "Cằm",
+                    "skinType": "oily",
+                    "acneLevel": "moderate",
+                    "rednessLevel": "mild",
+                    "poreSize": "large"
+                },
+                {
+                    "zone": "around_mouth",
+                    "zoneName": "Quanh miệng",
+                    "skinType": "combination",
+                    "acneLevel": "mild",
+                    "rednessLevel": "none",
+                    "poreSize": "normal"
+                }
+            ],
+            "additionalInfo": {
+                "hydrationLevel": "oily",
+                "elasticity": "good",
+                "wrinkles": "none",
+                "pigmentation": "mild",
+                "sensitivity": "not_sensitive",
+                "allergyHistory": "Không có",
+                "currentProducts": "Gel rửa mặt trị mụn, kem chống nắng",
+                "notes": "Khách hàng có mụn trứng cá nghiêm trọng cần điều trị"
+            },
+            "status": "completed",
+            "createdAt": "2026-01-25T09:45:00Z",
+            "updatedAt": "2026-01-25T10:15:00Z"
+        },
+        {
+            "id": "REC004",
+            "imageUrl": "/images/face-sample-4.jpg",
+            "personalInfo": {
+                "name": "Phạm Thị Hương",
+                "age": 42,
+                "gender": "Nữ"
+            },
+            "skinAnalysis": [
+                {
+                    "zone": "forehead",
+                    "zoneName": "Trán",
+                    "skinType": "normal",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "small"
+                },
+                {
+                    "zone": "left_cheek",
+                    "zoneName": "Má trái",
+                    "skinType": "normal",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "small"
+                },
+                {
+                    "zone": "right_cheek",
+                    "zoneName": "Má phải",
+                    "skinType": "normal",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "small"
+                },
+                {
+                    "zone": "nose",
+                    "zoneName": "Mũi",
+                    "skinType": "normal",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "normal"
+                },
+                {
+                    "zone": "chin",
+                    "zoneName": "Cằm",
+                    "skinType": "normal",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "small"
+                },
+                {
+                    "zone": "around_mouth",
+                    "zoneName": "Quanh miệng",
+                    "skinType": "dry",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "small"
+                }
+            ],
+            "additionalInfo": {
+                "hydrationLevel": "normal",
+                "elasticity": "moderate",
+                "wrinkles": "moderate",
+                "pigmentation": "severe",
+                "sensitivity": "not_sensitive",
+                "allergyHistory": "Không có",
+                "currentProducts": "Kem chống lão hóa, serum vitamin C, kem chống nắng SPF 50",
+                "notes": "Khách hàng quan tâm đến chống lão hóa và điều trị nám"
+            },
+            "status": "completed",
+            "createdAt": "2026-02-01T11:00:00Z",
+            "updatedAt": "2026-02-01T11:45:00Z"
+        },
+        {
+            "id": "REC005",
+            "imageUrl": "/images/face-sample-5.jpg",
+            "personalInfo": {
+                "name": "Võ Minh Tuấn",
+                "age": 30,
+                "gender": "Nam"
+            },
+            "skinAnalysis": [
+                {
+                    "zone": "forehead",
+                    "zoneName": "Trán",
+                    "skinType": "combination",
+                    "acneLevel": "mild",
+                    "rednessLevel": "none",
+                    "poreSize": "normal"
+                },
+                {
+                    "zone": "left_cheek",
+                    "zoneName": "Má trái",
+                    "skinType": "normal",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "small"
+                },
+                {
+                    "zone": "right_cheek",
+                    "zoneName": "Má phải",
+                    "skinType": "normal",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "small"
+                },
+                {
+                    "zone": "nose",
+                    "zoneName": "Mũi",
+                    "skinType": "oily",
+                    "acneLevel": "mild",
+                    "rednessLevel": "none",
+                    "poreSize": "large"
+                },
+                {
+                    "zone": "chin",
+                    "zoneName": "Cằm",
+                    "skinType": "combination",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "normal"
+                },
+                {
+                    "zone": "around_mouth",
+                    "zoneName": "Quanh miệng",
+                    "skinType": "normal",
+                    "acneLevel": "clear",
+                    "rednessLevel": "none",
+                    "poreSize": "small"
+                }
+            ],
+            "additionalInfo": {
+                "hydrationLevel": "normal",
+                "elasticity": "very_good",
+                "wrinkles": "none",
+                "pigmentation": "none",
+                "sensitivity": "slightly_sensitive",
+                "allergyHistory": "Dị ứng với benzoyl peroxide",
+                "currentProducts": "Sữa rửa mặt Neutrogena, kem dưỡng ẩm không dầu",
+                "notes": "Khách hàng muốn duy trì làn da khỏe mạnh"
+            },
+            "status": "completed",
+            "createdAt": "2026-02-03T16:20:00Z",
+            "updatedAt": "2026-02-03T16:50:00Z"
+        }
+    ]
+}
