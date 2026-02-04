@@ -5,8 +5,8 @@ import { useRouter } from "next/navigation";
 import { FiLock, FiUser, FiHeart } from "react-icons/fi";
 
 export default function LoginPage() {
-    const [username, setUsername] = useState("");
-    const [password, setPassword] = useState("");
+    const [username, setUsername] = useState("admin");
+    const [password, setPassword] = useState("123");
     const [error, setError] = useState("");
     const [isLoading, setIsLoading] = useState(false);
     const router = useRouter();
@@ -53,15 +53,14 @@ export default function LoginPage() {
                                 Tên đăng nhập
                             </label>
                             <div className="relative">
-                                <FiUser className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-pink-400" />
+                                <FiUser className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                                 <input
                                     id="username"
                                     type="text"
                                     value={username}
-                                    onChange={(e) => setUsername(e.target.value)}
-                                    className="w-full pl-10 pr-4 py-3 border border-pink-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-smooth bg-white/50"
+                                    readOnly
+                                    className="w-full pl-10 pr-4 py-3 border border-pink-200 rounded-xl focus:outline-none bg-gray-50 text-gray-500 cursor-not-allowed"
                                     placeholder="admin"
-                                    required
                                 />
                             </div>
                         </div>
@@ -72,15 +71,14 @@ export default function LoginPage() {
                                 Mật khẩu
                             </label>
                             <div className="relative">
-                                <FiLock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-pink-400" />
+                                <FiLock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                                 <input
                                     id="password"
                                     type="password"
                                     value={password}
-                                    onChange={(e) => setPassword(e.target.value)}
-                                    className="w-full pl-10 pr-4 py-3 border border-pink-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-smooth bg-white/50"
+                                    readOnly
+                                    className="w-full pl-10 pr-4 py-3 border border-pink-200 rounded-xl focus:outline-none bg-gray-50 text-gray-500 cursor-not-allowed"
                                     placeholder="●●●"
-                                    required
                                 />
                             </div>
                         </div>
@@ -94,15 +92,13 @@ export default function LoginPage() {
                             disabled={isLoading}
                             className="w-full bg-accent hover:bg-accent/90 disabled:bg-accent/50 text-white font-semibold py-3 px-6 rounded-xl shadow-soft hover:shadow-soft-hover transition-smooth cursor-pointer disabled:cursor-not-allowed"
                         >
-                            {isLoading ? "Đang đăng nhập..." : "Đăng nhập"}
+                            {isLoading ? "Đang đăng nhập..." : "Đăng nhập ngay"}
                         </button>
                     </form>
 
                     {/* Demo Credentials */}
                     <div className="mt-6 pt-6 border-t border-pink-200">
-                        <p className="text-sm text-pink-600/70 text-center">
-                            <strong>Demo:</strong> admin / 123
-                        </p>
+                        <p className="text-sm text-pink-600/70 text-center italic">Thông tin đăng nhập đã được điền sẵn</p>
                     </div>
                 </div>
             </div>

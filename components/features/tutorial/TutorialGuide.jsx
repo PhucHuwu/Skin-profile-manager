@@ -120,6 +120,14 @@ export function TutorialGuide({ run, onFinish }) {
         }
     };
 
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    if (!mounted) return null;
+
     return (
         <Joyride
             steps={steps}
